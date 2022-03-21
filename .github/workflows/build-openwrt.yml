@@ -8,8 +8,8 @@ on:
       - main
 
 env:
-  BOARD: "ramips"
-  SUBTARGET: "ath79"
+  BOARD: "ath79"
+  SUBTARGET: "generic"
   PROFILE: "glinet_gl-mifi"
   PACKAGES_TYPE1: "iperf3 luci mtr kmod-tcp-bbr libustream-wolfssl ca-bundle -luci-proto-ppp -ppp -ppp-mod-pppoe -kmod-pppox -kmod-pppoe -kmod-ppp"
 
